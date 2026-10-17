@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dark Application Theme -->
+    <style name="Theme.MyIdeas" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#0D1117</item>
+        <item name="android:statusBarColor">#0D1117</item>
+        <item name="android:navigationBarColor">#0D1117</item>
+    </style>
+
+    <!-- Dark Splash Screen Theme for Android 12+ -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0D1117</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyIdeas</item>
+    </style>
+
+</resources>
